@@ -5,182 +5,180 @@
 </p>
 
 <p align="center">
-  A modern full-stack career management platform designed to help job seekers organize applications, analyze resumes, improve skills, prepare for interviews, and monitor their career progress — all from one dashboard.
+  A full-stack career management platform to track job applications, build resumes, analyze ATS compatibility, identify skill gaps, and prepare for interviews — all from one dashboard.
 </p>
 
 ---
 
 ## 🌟 Overview
 
-**JobTrack** is a full-stack job application tracking and career management platform built with the MERN ecosystem.
+**JobTrack** is a MERN-based job application tracking and career management platform designed to simplify the job search process.
 
-Instead of using spreadsheets, notes, bookmarks, and multiple tools to manage a job search, JobTrack brings everything into one centralized platform.
+It brings application tracking, resume management, career planning, and interview preparation into one centralized workspace.
 
-From tracking applications to checking ATS compatibility and preparing for interviews, JobTrack provides a complete workspace for managing the job-search journey.
-
----
-
-## ✨ Key Features
+## ✨ Features
 
 ### 📊 Career Dashboard
-
-Get a complete overview of your job search activity.
-
-- Total applications
-- Active applications
-- Interviews
-- Job offers
-- Saved jobs
-- Resume ATS score
-- Recommended jobs
-- Skill match percentage
-- Application analytics
-- Upcoming deadlines
-- Career roadmap
-- Interview progress
-- Profile completion
-- Career readiness
-
----
+- Overview of applications, interviews, offers, and saved jobs
+- Application analytics and progress tracking
+- Resume ATS score and skill-match indicators
+- Upcoming deadlines and career readiness insights
 
 ### 💼 Job Application Tracker
-
-Manage your entire application pipeline from one place.
-
-- Add new job applications
-- Edit application details
-- Delete applications
-- Track application status
-- Organize applications through a workflow
-- Monitor application progress
-- Keep important job information centralized
-
----
+- Add, edit, and delete job applications
+- Track application statuses throughout the hiring process
+- Organize job details and monitor application progress
 
 ### 🔖 Saved Jobs
-
-Save interesting opportunities and access them later.
-
-- Bookmark jobs
-- Maintain a personal job shortlist
-- Quickly access saved opportunities
-
----
+- Bookmark interesting job opportunities
+- Maintain a personalized job shortlist
 
 ### 📄 Resume Builder
-
-Create and manage a professional resume.
-
-- Resume creation
-- Live preview
+- Create and edit professional resumes
 - Structured resume sections
-- Easy editing
+- Live resume preview
 - Resume management
 
----
-
 ### 🎯 ATS Resume Checker
-
-Analyze your resume for Applicant Tracking System compatibility.
-
-- ATS score
-- Resume analysis
-- Improvement suggestions
-- Skill matching
+- Resume compatibility scoring
+- Resume improvement suggestions
+- Job description and skill matching
 - Resume optimization guidance
 
----
-
-### 🤖 AI Enhancement
-
-Improve career-related content using intelligent enhancement features.
-
-- Content improvement
-- Resume enhancement
+### 🤖 AI-Assisted Career Tools
+- Resume content enhancement
+- Cover letter generation
+- Professional email generation
 - Career-focused suggestions
-- Local/demo enhancement logic
 
-> The current version includes demo-first AI functionality and does not require an external AI API key.
+> Note: AI enhancement features currently include demo-first functionality and do not necessarily require an external AI API key.
 
----
-
-### 🧠 Skills & Skill Gap Analysis
-
-Understand your current skills and identify areas for improvement.
-
-- Skill analysis
-- Skill matching
-- Skill gap identification
-- Career improvement guidance
-
----
+### 🧠 Skills & Career Development
+- Skill gap analysis
+- Job-specific skill matching
+- Career roadmap and learning recommendations
+- Career readiness tracking
 
 ### 🎤 Interview Preparation
-
-Prepare for interviews with dedicated interview preparation features.
-
-- Interview preparation
+- Interview preparation tools
 - Progress tracking
-- Career guidance
-- Interview-focused resources
+- Career guidance and preparation resources
+
+### 📈 Additional Tools
+- Job comparison
+- Job alerts and notifications
+- Resume-to-job matching
+- Profile and settings management
 
 ---
 
-### 📈 Job Comparison
+## 🛠️ Tech Stack
 
-Compare different job opportunities to help organize your decision-making.
-
----
-
-### 🔔 Job Alerts
-
-Keep track of important job-related notifications and opportunities.
-
----
-
-### ✉️ Career Tools
-
-JobTrack also includes additional career productivity tools:
-
-- Cover Letter Generator
-- Email Generator
-- Resume Match
-- ATS Tools
-- Career Roadmap
-- Recommendations
-- Profile & Settings
-
----
-
-# 🛠️ Tech Stack
-
-## Frontend
-
+### Frontend
 - React.js
 - Vite
 - React Router
 - Recharts
 - Lucide React
 - JavaScript
-- HTML5
-- CSS3
+- HTML5 and CSS3
 
-## Backend
-
+### Backend
 - Node.js
 - Express.js
 
-## Authentication
-
+### Authentication & Data
 - JWT-style authentication flow
-- Local storage based session handling
+- Local storage-based session handling
 - Demo authentication
 
-## Development
-
+### Development Tools
+- Git and GitHub
 - npm
-- Git
-- GitHub
-- VS Code
+- Visual Studio Code
 
 ---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js and npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/libirevanth364/JOB-APPLICATION-TRACKER.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd JOB-APPLICATION-TRACKER
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server using the script configured in `package.json`:
+
+   ```bash
+   npm run dev
+   ```
+
+> If the project uses a separate backend directory, install its dependencies and start the backend separately according to its configuration.
+
+---
+
+## 📁 Project Structure
+
+```text
+JOB-APPLICATION-TRACKER/
+├── MERN PROJECT/
+├── New folder/
+├── README.md
+└── package-lock.json
+```
+
+*The directory structure above reflects the repository's visible top-level folders. The complete application structure may differ.*
+
+---
+
+## 🎯 Project Goals
+
+- Centralize job application management
+- Improve resume quality and ATS compatibility
+- Help users identify relevant skills and career gaps
+- Simplify interview preparation
+- Provide a structured approach to career development
+
+---
+
+## 🔮 Future Enhancements
+
+- Integration with live job listing APIs
+- Advanced AI-powered resume analysis
+- Personalized job recommendations
+- Automated application reminders
+- Enhanced analytics and career insights
+- Secure production-ready authentication
+- Expanded interview preparation tools
+
+---
+
+## 👨‍💻 Author
+
+**Libi Revanth**
+
+GitHub: [@libirevanth364](https://github.com/libirevanth364)
+
+---
+
+## 📄 License
+
+Add a license file if you intend to distribute this project under an open-source license.
